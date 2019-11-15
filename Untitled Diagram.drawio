@@ -1,5 +1,5 @@
-<mxfile modified="2019-11-15T07:33:59.309Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="ZssW46ekPcQFfOoaVraB" version="12.2.6" type="github" pages="1">
-  <diagram id="uIuxK4xR44oAbv54F6lL" name="内存透视流程图">
+<mxfile modified="2019-11-15T07:39:04.441Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="SXvRziaV30Zz-XX1Ihy7" version="12.2.6" type="github" pages="1">
+  <diagram id="uIuxK4xR44oAbv54F6lL" name="内存透视流程图-ad-shield">
     <mxGraphModel dx="932" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
@@ -93,6 +93,22 @@
         </mxCell>
         <mxCell id="LVdLGEJ6DOUqfLcYgXoU-55" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="135" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="LVdLGEJ6DOUqfLcYgXoU-58" value="&lt;div&gt;11）SPRING_CONFIG_LOAD_TIME&lt;/div&gt;&lt;div&gt;12）SPRING_CONFIG_LOCATION&lt;/div&gt;&lt;div&gt;13）SPRING_ENVIRONMENT_MAP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="510" width="220" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="LVdLGEJ6DOUqfLcYgXoU-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LVdLGEJ6DOUqfLcYgXoU-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="278" y="560" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LVdLGEJ6DOUqfLcYgXoU-62" value="重启应用（人工）" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="LVdLGEJ6DOUqfLcYgXoU-61">
+          <mxGeometry x="-0.2157" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LVdLGEJ6DOUqfLcYgXoU-63" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="520" width="30" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
