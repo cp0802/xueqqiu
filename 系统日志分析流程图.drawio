@@ -1,1 +1,31 @@
-<mxfile host="www.draw.io" modified="2019-11-22T07:31:14.526Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" version="12.2.9" etag="3v8yb4_Ii4AbMrcdHTTY" type="github" pages="3"><diagram id="Pke-F2zmkAKitJMg9k11">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-22T07:38:55.989Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="AcTo2DQ15CDLrLRG0FzD" version="12.2.9" type="github" pages="1">
+  <diagram id="Pke-F2zmkAKitJMg9k11" name="Page-1">
+    <mxGraphModel dx="932" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="-h8rbhezB3a-6hpPJL8b-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-h8rbhezB3a-6hpPJL8b-2" target="-h8rbhezB3a-6hpPJL8b-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="-h8rbhezB3a-6hpPJL8b-2" value="时间轴视图组件（TimeLion）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-h8rbhezB3a-6hpPJL8b-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-h8rbhezB3a-6hpPJL8b-3" target="-h8rbhezB3a-6hpPJL8b-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="-h8rbhezB3a-6hpPJL8b-3" value="&lt;span style=&quot;white-space: normal&quot;&gt;es日志服务&lt;br&gt;（ELK收集应用输出日志）&lt;br&gt;&lt;/span&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="110" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="-h8rbhezB3a-6hpPJL8b-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-h8rbhezB3a-6hpPJL8b-6" target="-h8rbhezB3a-6hpPJL8b-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="-h8rbhezB3a-6hpPJL8b-6" value="es统计*Exception/ERROR数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-h8rbhezB3a-6hpPJL8b-7" value="kibana图表展示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
