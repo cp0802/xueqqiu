@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-12T09:26:49.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="4po3mjxFGirb0jhyXQE7" version="12.8.4" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-12T09:38:59.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="zs79h9KubkJ7HA913sRA" version="12.8.4" type="github" pages="3">
   <diagram id="Fh-FkXlsDdvQ9YG-0T8J" name="ad-shield健康检查">
     <mxGraphModel dx="932" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,14 +149,14 @@
         <mxCell id="Q8Ou8aBHPlAMR3QkmS03-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jCD15fpiU59etRgHQPGw-1" source="rn2cT4v-FtYeabOEz3eV-0" target="rn2cT4v-FtYeabOEz3eV-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rn2cT4v-FtYeabOEz3eV-0" value="发起健康检查" style="ellipse;whiteSpace=wrap;html=1;" parent="jCD15fpiU59etRgHQPGw-1" vertex="1">
-          <mxGeometry x="210" y="30" width="120" height="70" as="geometry" />
+        <mxCell id="rn2cT4v-FtYeabOEz3eV-0" value="发起内部健康检查&lt;br&gt;health" style="ellipse;whiteSpace=wrap;html=1;" parent="jCD15fpiU59etRgHQPGw-1" vertex="1">
+          <mxGeometry x="210" y="40" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Eo22ZyS6s3XHy2_YQfYe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="jCD15fpiU59etRgHQPGw-1" source="rn2cT4v-FtYeabOEz3eV-1" target="Eo22ZyS6s3XHy2_YQfYe-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="420" y="180" />
-              <mxPoint x="420" y="603" />
+              <mxPoint x="440" y="180" />
+              <mxPoint x="440" y="603" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -180,19 +180,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q8Ou8aBHPlAMR3QkmS03-1" value="根据requestNode发起搜索请求得到responseNode" style="rounded=1;whiteSpace=wrap;html=1;" parent="jCD15fpiU59etRgHQPGw-1" vertex="1">
-          <mxGeometry x="210" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q8Ou8aBHPlAMR3QkmS03-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="jCD15fpiU59etRgHQPGw-1" source="Q8Ou8aBHPlAMR3QkmS03-2" target="Eo22ZyS6s3XHy2_YQfYe-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="350" y="470" />
-              <mxPoint x="350" y="580" />
+              <mxPoint x="380" y="390" />
+              <mxPoint x="380" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q8Ou8aBHPlAMR3QkmS03-9" value="否&lt;br&gt;返回具体的错误码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" parent="Q8Ou8aBHPlAMR3QkmS03-8" vertex="1" connectable="0">
+        <mxCell id="Q8Ou8aBHPlAMR3QkmS03-9" value="否&lt;br&gt;返回具体的错误码&lt;br&gt;请求和响应错误信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" parent="Q8Ou8aBHPlAMR3QkmS03-8" vertex="1" connectable="0">
           <mxGeometry x="0.125" y="-3" relative="1" as="geometry">
-            <mxPoint x="3" y="-37" as="offset" />
+            <mxPoint x="3" y="-32" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q8Ou8aBHPlAMR3QkmS03-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="jCD15fpiU59etRgHQPGw-1" source="Q8Ou8aBHPlAMR3QkmS03-2" target="Eo22ZyS6s3XHy2_YQfYe-0" edge="1">
@@ -204,10 +204,76 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q8Ou8aBHPlAMR3QkmS03-2" value="&lt;span style=&quot;white-space: normal&quot;&gt;判断responseNode中resultCode=0&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="jCD15fpiU59etRgHQPGw-1" vertex="1">
-          <mxGeometry x="210" y="430" width="120" height="80" as="geometry" />
+          <mxGeometry x="210" y="350" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a430O99CfxABAIGCGCCB-0" value="&lt;div&gt;错误码&lt;/div&gt;&lt;div&gt;1） 服务异常 ： 501&lt;/div&gt;&lt;div&gt;2）请求非法：401&lt;/div&gt;&lt;div&gt;3） ES异常占用[1000~1099]&lt;/div&gt;&lt;div&gt;4）客户端相关占用[1100~1199]&amp;nbsp;&lt;/div&gt;&lt;div&gt;5）资源相关占用[1200~1299]&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="jCD15fpiU59etRgHQPGw-1">
-          <mxGeometry x="450" y="430" width="170" height="150" as="geometry" />
+          <mxGeometry x="460" y="430" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jCD15fpiU59etRgHQPGw-1" source="a430O99CfxABAIGCGCCB-15" target="a430O99CfxABAIGCGCCB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-15" value="nginx发起健康检查healthcheck" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jCD15fpiU59etRgHQPGw-1">
+          <mxGeometry x="225" y="740" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jCD15fpiU59etRgHQPGw-1" source="a430O99CfxABAIGCGCCB-19" target="a430O99CfxABAIGCGCCB-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="920" />
+              <mxPoint x="460" y="1343" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-17" value="异常&lt;br&gt;返回resultCode=501" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="a430O99CfxABAIGCGCCB-16">
+          <mxGeometry x="-0.1852" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jCD15fpiU59etRgHQPGw-1" source="a430O99CfxABAIGCGCCB-19" target="a430O99CfxABAIGCGCCB-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-19" value="根据配置请求数据checkData得到单个请求requestNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jCD15fpiU59etRgHQPGw-1">
+          <mxGeometry x="220" y="890" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=arrow;" edge="1" parent="jCD15fpiU59etRgHQPGw-1" source="a430O99CfxABAIGCGCCB-20" target="a430O99CfxABAIGCGCCB-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-20" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;resultCode=0则返回OK&lt;br&gt;否则&lt;/span&gt;UNHEALTHY&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jCD15fpiU59etRgHQPGw-1">
+          <mxGeometry x="230" y="1310" width="120" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jCD15fpiU59etRgHQPGw-1" source="a430O99CfxABAIGCGCCB-22" target="a430O99CfxABAIGCGCCB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-22" value="根据requestNode发起搜索请求得到responseNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jCD15fpiU59etRgHQPGw-1">
+          <mxGeometry x="230" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jCD15fpiU59etRgHQPGw-1" source="a430O99CfxABAIGCGCCB-27" target="a430O99CfxABAIGCGCCB-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="1130" />
+              <mxPoint x="400" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-24" value="否&lt;br&gt;返回具体的错误码&lt;br&gt;请求和响应错误信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="a430O99CfxABAIGCGCCB-23">
+          <mxGeometry x="0.125" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jCD15fpiU59etRgHQPGw-1" source="a430O99CfxABAIGCGCCB-27" target="a430O99CfxABAIGCGCCB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-26" value="返回resultCode=0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="a430O99CfxABAIGCGCCB-25">
+          <mxGeometry x="-0.1667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-27" value="&lt;span style=&quot;white-space: normal&quot;&gt;判断responseNode中resultCode=0&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="jCD15fpiU59etRgHQPGw-1">
+          <mxGeometry x="230" y="1090" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a430O99CfxABAIGCGCCB-35" value="健康检查过程中如果首次检查为UNHEALTHY则重试一次" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="jCD15fpiU59etRgHQPGw-1">
+          <mxGeometry x="510" y="1240" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
