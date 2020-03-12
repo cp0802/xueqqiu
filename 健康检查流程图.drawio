@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-12T09:38:59.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="zs79h9KubkJ7HA913sRA" version="12.8.4" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-12T09:42:07.873Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="TtAZOkk2qfL6jeZLWJo8" version="12.8.4" type="github" pages="3">
   <diagram id="Fh-FkXlsDdvQ9YG-0T8J" name="ad-shield健康检查">
     <mxGraphModel dx="932" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,13 +150,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rn2cT4v-FtYeabOEz3eV-0" value="发起内部健康检查&lt;br&gt;health" style="ellipse;whiteSpace=wrap;html=1;" parent="jCD15fpiU59etRgHQPGw-1" vertex="1">
-          <mxGeometry x="210" y="40" width="120" height="70" as="geometry" />
+          <mxGeometry x="200" y="60" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Eo22ZyS6s3XHy2_YQfYe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="jCD15fpiU59etRgHQPGw-1" source="rn2cT4v-FtYeabOEz3eV-1" target="Eo22ZyS6s3XHy2_YQfYe-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="440" y="180" />
-              <mxPoint x="440" y="603" />
+              <mxPoint x="440" y="593" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -174,7 +174,7 @@
           <mxGeometry x="200" y="150" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Eo22ZyS6s3XHy2_YQfYe-0" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="jCD15fpiU59etRgHQPGw-1" vertex="1">
-          <mxGeometry x="210" y="570" width="120" height="66" as="geometry" />
+          <mxGeometry x="210" y="560" width="120" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Q8Ou8aBHPlAMR3QkmS03-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="jCD15fpiU59etRgHQPGw-1" source="Q8Ou8aBHPlAMR3QkmS03-1" target="Q8Ou8aBHPlAMR3QkmS03-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -186,7 +186,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="380" y="390" />
-              <mxPoint x="380" y="580" />
+              <mxPoint x="380" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -213,13 +213,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a430O99CfxABAIGCGCCB-15" value="nginx发起健康检查healthcheck" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jCD15fpiU59etRgHQPGw-1">
-          <mxGeometry x="225" y="740" width="130" height="100" as="geometry" />
+          <mxGeometry x="225" y="770" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="a430O99CfxABAIGCGCCB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jCD15fpiU59etRgHQPGw-1" source="a430O99CfxABAIGCGCCB-19" target="a430O99CfxABAIGCGCCB-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="920" />
-              <mxPoint x="460" y="1343" />
+              <mxPoint x="460" y="1310" />
+              <mxPoint x="350" y="1310" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -240,7 +241,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a430O99CfxABAIGCGCCB-20" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;resultCode=0则返回OK&lt;br&gt;否则&lt;/span&gt;UNHEALTHY&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jCD15fpiU59etRgHQPGw-1">
-          <mxGeometry x="230" y="1310" width="120" height="66" as="geometry" />
+          <mxGeometry x="230" y="1270" width="120" height="66" as="geometry" />
         </mxCell>
         <mxCell id="a430O99CfxABAIGCGCCB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jCD15fpiU59etRgHQPGw-1" source="a430O99CfxABAIGCGCCB-22" target="a430O99CfxABAIGCGCCB-27">
           <mxGeometry relative="1" as="geometry" />
@@ -252,7 +253,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="1130" />
-              <mxPoint x="400" y="1320" />
+              <mxPoint x="400" y="1280" />
             </Array>
           </mxGeometry>
         </mxCell>
