@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-12T08:43:53.104Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="uOZBR79yInAOIwjGszSm" version="12.8.4" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-12T08:51:07.800Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="78Z_LGWmCBk9A5-puuhQ" version="12.8.4" type="github" pages="3">
   <diagram id="Fh-FkXlsDdvQ9YG-0T8J" name="ad-shield健康检查">
     <mxGraphModel dx="932" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
         <mxCell id="jH8fylCY83q8PEKmx7wo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jH8fylCY83q8PEKmx7wo-28" target="jH8fylCY83q8PEKmx7wo-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jH8fylCY83q8PEKmx7wo-32" value="不为空&lt;br&gt;返回&amp;nbsp;resultCode = 0&amp;nbsp;&lt;br&gt;和主备索引cntMap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" parent="jH8fylCY83q8PEKmx7wo-31" vertex="1" connectable="0">
+        <mxCell id="jH8fylCY83q8PEKmx7wo-32" value="不为空&lt;br&gt;返回&amp;nbsp;resultCode = 0&amp;nbsp;&lt;br&gt;、&lt;span style=&quot;font-size: 11px&quot;&gt;索引状态&lt;/span&gt;index_status、&lt;br&gt;主备索引cntMap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" parent="jH8fylCY83q8PEKmx7wo-31" vertex="1" connectable="0">
           <mxGeometry x="-0.32" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -61,7 +61,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jH8fylCY83q8PEKmx7wo-36" value="为空&lt;br&gt;返回resultCode=1005&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;和 索引状态&lt;/span&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" parent="jH8fylCY83q8PEKmx7wo-34" vertex="1" connectable="0">
+        <mxCell id="jH8fylCY83q8PEKmx7wo-36" value="为空&lt;br&gt;返回resultCode=1005&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;和 索引状态&lt;/span&gt;index_status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" parent="jH8fylCY83q8PEKmx7wo-34" vertex="1" connectable="0">
           <mxGeometry x="-0.113" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
