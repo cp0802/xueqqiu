@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-05-18T02:18:17.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="7kAStxWT_eT55tiN4dBm" version="13.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-05-18T02:19:43.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="Nk8QpfRwyNcXH4JL98kX" version="13.1.2" type="github" pages="4">
   <diagram id="fImMr4h9AHXbxO4TRYI7" name="需求类汇总">
     <mxGraphModel dx="946" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="gIS-HhMIEIa3TDsLZ-hI-0" />
         <mxCell id="gIS-HhMIEIa3TDsLZ-hI-1" parent="gIS-HhMIEIa3TDsLZ-hI-0" />
+        <mxCell id="6w2yPVnFLuxknEyF1GKq-0" value="接到需求" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="gIS-HhMIEIa3TDsLZ-hI-1">
+          <mxGeometry x="160" y="40" width="160" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
