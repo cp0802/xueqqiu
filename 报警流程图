@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T03:12:15.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="SmUHSL3pKazNinbTvo6U" version="13.5.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-04T03:12:35.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="uo8D6AXv5XWkhF04b-C5" version="13.5.8" type="github" pages="2">
   <diagram id="UaMgAT0f_bdcrSyEgnFr" name="ELK预警">
     <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,6 +71,11 @@
         </mxCell>
         <mxCell id="scFP6OU2b_RukV709cCQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="scFP6OU2b_RukV709cCQ-3" target="scFP6OU2b_RukV709cCQ-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="scFP6OU2b_RukV709cCQ-8" value="触发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="scFP6OU2b_RukV709cCQ-1">
+          <mxGeometry x="-0.0333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="scFP6OU2b_RukV709cCQ-3" value="Zabbix指标值" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="590" width="120" height="80" as="geometry" />
