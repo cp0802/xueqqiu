@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T07:09:32.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="8rI_vwlDO8lvhPRPXQ2P" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T07:13:50.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="WoGYUSQnGBi6ea-ZJVM_" version="13.10.4" type="github">
   <diagram id="RQpqHFpnzPIUH-CM5aDS" name="Page-1">
     <mxGraphModel dx="922" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -180,6 +180,45 @@
         </mxCell>
         <mxCell id="1NheDvkulnPa5VNXS3Xh-114" value="last_department_id 所属部门" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-112">
           <mxGeometry x="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-115" value="department （部门表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="425" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-116" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-115">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-117" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-116">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-118" value="id 自增id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-116">
+          <mxGeometry x="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-119" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-115">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-120" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-119">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-121" value="name 部门名称" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-119">
+          <mxGeometry x="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-122" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-115">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-123" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-122">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-124" value="superior_department_id 上级部门" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-122">
+          <mxGeometry x="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-125" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-115">
+          <mxGeometry y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-126" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-125">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1NheDvkulnPa5VNXS3Xh-127" value="manager_user 部门管理人员" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1NheDvkulnPa5VNXS3Xh-125">
+          <mxGeometry x="30" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
