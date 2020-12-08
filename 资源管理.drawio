@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T05:42:49.383Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="NjGGsEYpFpCMQ2lZe7ad" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T07:09:20.856Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="bASx692-RAVaoAoVYVLm" version="13.10.4" type="github">
   <diagram id="LxhBe5MTn6NwQ-Ji3RKH" name="Page-1">
     <mxGraphModel dx="922" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uCcxfWCmBZ7AB4IgKuGA-9" value="添加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCcxfWCmBZ7AB4IgKuGA-1" target="uCcxfWCmBZ7AB4IgKuGA-6">
+        <mxCell id="uCcxfWCmBZ7AB4IgKuGA-9" value="添加资源位" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCcxfWCmBZ7AB4IgKuGA-1" target="uCcxfWCmBZ7AB4IgKuGA-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uCcxfWCmBZ7AB4IgKuGA-1" value="前端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="uCcxfWCmBZ7AB4IgKuGA-1" value="前端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="320" y="30" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uCcxfWCmBZ7AB4IgKuGA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uCcxfWCmBZ7AB4IgKuGA-6" target="uCcxfWCmBZ7AB4IgKuGA-7">
@@ -34,7 +34,7 @@
         <mxCell id="uCcxfWCmBZ7AB4IgKuGA-10" value="新增资源位数据入库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="265" y="410" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uCcxfWCmBZ7AB4IgKuGA-11" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="uCcxfWCmBZ7AB4IgKuGA-11" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="307.5" y="490" width="55" height="55" as="geometry" />
         </mxCell>
         <mxCell id="uCcxfWCmBZ7AB4IgKuGA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uCcxfWCmBZ7AB4IgKuGA-18" target="uCcxfWCmBZ7AB4IgKuGA-19">
@@ -45,7 +45,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uCcxfWCmBZ7AB4IgKuGA-18" value="前端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="uCcxfWCmBZ7AB4IgKuGA-18" value="前端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="630" y="30" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uCcxfWCmBZ7AB4IgKuGA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uCcxfWCmBZ7AB4IgKuGA-19" target="uCcxfWCmBZ7AB4IgKuGA-24">
@@ -54,7 +54,7 @@
         <mxCell id="uCcxfWCmBZ7AB4IgKuGA-19" value="资源位置、是否报批资源、是否支持配送、售卖方式及库存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="572.5" y="160" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uCcxfWCmBZ7AB4IgKuGA-23" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="uCcxfWCmBZ7AB4IgKuGA-23" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="610" y="360" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uCcxfWCmBZ7AB4IgKuGA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uCcxfWCmBZ7AB4IgKuGA-24" target="uCcxfWCmBZ7AB4IgKuGA-23">
